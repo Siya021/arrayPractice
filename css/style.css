@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .container-fluid{
+    border: 21px solid red;
+    display: grid;
+    align-items: center;
+    position: center;
+ }
+ #names{
+    width: 100%;
+ }
+ button{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    gap: 50px;
+ }
+button.load{
+    color: white ;
+    background-color: green;
+    width: 200px;
+}
+button.show{
+    color: beige;
+    background-color: blue;
+    width: 200px;
+}
